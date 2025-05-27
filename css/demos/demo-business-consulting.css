@@ -975,47 +975,103 @@ article.blog-post .blog-post-image-wrapper .blog-post-date .month-year {
 /*
 * Contact Us
 */
-.custom-call-to-action-2 .info {
-    display: block;
+/*
+/*
+/*
+* Contact Us - Orbit Avanya Tech Styling
+* Primary Color: #04213F
+* Dark Shade: #021628
+*/
+
+/* ===== Typography ===== */
+/* Headings */
+.page-header h1,
+.page-header .text-4,
+h2.font-weight-bold.text-color-dark,
+.feature-box-info h2 {
+    color: #04213F !important;
 }
 
+/* Body Text */
+body,
+p,
+.text-4,
+.feature-box-info p,
+.custom-input-box .form-control,
+.custom-input-box .form-control::placeholder {
+    color: #000000 !important;
+}
+
+/* ===== Form Elements ===== */
+/* Icons */
+.custom-contact-form-style-1 .icons,
+.feature-box-icon i {
+    color: #04213F !important;
+}
+
+/* Submit Button */
+.custom-contact-form-style-1 .btn-submit,
+.custom-contact-form-style-1 input[type="submit"] {
+    background-color: #04213F !important;
+    border-color: #04213F !important;
+    color: white !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+}
+
+.custom-contact-form-style-1 .btn-submit:hover,
+.custom-contact-form-style-1 input[type="submit"]:hover {
+    background-color: #021628 !important;
+    border-color: #021628 !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ===== Social Icons ===== */
 .custom-social-icons-style-1 li {
-    border: 2px solid #FFF;
+    border-color: #04213F !important;
 }
 
 .custom-social-icons-style-1 li a {
-    background: transparent;
-    color: var(--light) !important;
+    color: #04213F !important;
 }
 
-.custom-contact-form-style-1 .custom-input-box {
-    position: relative;
+.custom-social-icons-style-1 li:hover {
+    background-color: #04213F !important;
 }
 
-.custom-contact-form-style-1 .custom-input-box .icons {
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    font-size: 1.3em;
+.custom-social-icons-style-1 li:hover a {
+    color: white !important;
 }
 
-.custom-contact-form-style-1 .custom-input-box .form-control {
-    border-radius: 2px;
-    height: 50px;
-    padding-left: 50px;
+/* ===== Email Address Specific Styling ===== */
+/* Cloudflare-protected email */
+.feature-box-info a[data-cfemail] {
+    color: #000000 !important;
+    text-decoration: none !important;
 }
 
-.custom-contact-form-style-1 .custom-input-box textarea.form-control {
-    padding-top: 14px;
-    height: 0;
-    min-height: 130px;
+.feature-box-info a[data-cfemail]:hover {
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+
+/* Regular email link fallback */
+.feature-box-info a[href^="mailto:"] {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.feature-box-info a[href^="mailto:"]:hover {
+    color: #000000 !important;
+    text-decoration: underline !important;
 }
 
 /*
 * Footer
 */
 #footer {
-    background: #1A1E2A;
+    background: #FFFFFF;
     border-top: 1px solid #3c3e49;
     margin-top: 0;
     padding: 20px 0 0;
