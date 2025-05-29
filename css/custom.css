@@ -1,28 +1,28 @@
-/* Force header to white background */
+/* Force header to white background 
 header,
 .header-body,
 .header-container {
-  background-color: #ffffff !important; /* white */
+  background-color: #ffffff !important; /* white 
 }
-
-/* Force header nav links to red */
-/* Make header menu links red */
+*/
+/* Force header nav links to red 
+/* Make header menu links red 
 header .header-nav-main nav > ul > li > a,
 header .header-nav-main nav > ul > li > a:hover,
 header .header-nav-main nav > ul > li.active > a {
-  color: #FF0000 !important; /* Red color */
+  color: #FF0000 !important; /* Red color 
   font-weight: bold;
   transition: color 0.3s ease;
 }
-
-/* Override quaternary background to white */
+*/
+/* Override quaternary background to white 
 .bg-color-quaternary,
 .bg-quaternary {
-    background-color: #ffffff !important; /* white */
+    background-color: #ffffff !important; /* white 
 }
 
 
-/* Contact Section Contrast Fix */
+/* Contact Section Contrast Fix 
 .section-background {
     position: relative;
 }
@@ -34,16 +34,17 @@ header .header-nav-main nav > ul > li.active > a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(4, 33, 63, 0.7); /* Dark blue overlay */
+    background: rgba(4, 33, 63, 0.7); /* Dark blue overlay 
     z-index: 0;
-}
-
+}*/
+/*
 .section-background > .container {
     position: relative;
     z-index: 1;
-}
 
-/* Text Enhancements */
+}
+*/
+/* Text Enhancements 
 .section-text-light h2,
 .section-text-light h4,
 .section-text-light p,
@@ -56,13 +57,13 @@ header .header-nav-main nav > ul > li.active > a {
     opacity: 0.9 !important;
 }
 
-/* Form Inputs */
+/* Form Inputs 
 .section-background .form-control {
     background-color: rgba(255,255,255,0.9) !important;
     border: 1px solid #FFFFFF !important;
 }
 
-/* Social Icons Visibility Fix */
+/* Social Icons Visibility Fix 
 .section-background .social-icons-clean li {
     border-color: #FFFFFF !important;
     background-color: rgba(255,255,255,0.2) !important;
@@ -79,7 +80,7 @@ header .header-nav-main nav > ul > li.active > a {
 .section-background .social-icons-clean li:hover a {
     color: #04213F !important;
 }
-/* Submit Button Visibility Fix */
+/* Submit Button Visibility Fix 
 .section-background .btn-primary {
     background-color: #FFFFFF !important;
     border-color: #FFFFFF !important;
@@ -93,7 +94,7 @@ header .header-nav-main nav > ul > li.active > a {
     color: #FFFFFF !important;
 }
 
-/* Contact Section Unified Styling */
+/* Contact Section Unified Styling 
 .section-background .feature-box-icon i {
     color: #FFFFFF !important;
 }
@@ -101,4 +102,4 @@ header .header-nav-main nav > ul > li.active > a {
 .section-background .custom-call-to-action-2 .info {
     color: #FFFFFF !important;
     font-weight: 600;
-}
+}*/
